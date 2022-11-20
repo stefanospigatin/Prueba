@@ -1,0 +1,58 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(255, 68, 0, 0.863);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.buscar{
+    text-align: right;
+}
+.menu{
+    background-color: rgb(37, 37, 37);
+    padding: 0;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    padding: 10px;
+    margin: 10px;
+    color: orangered;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover{
+    background: orange;
+    color: black;
+    border-radius: 10%;
+}
+main{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+}
+main h3 a{
+    color: orange;
+    text-decoration: none;
+}
+main h3 a:hover{
+    color: black;
+    background-color: orange;
+}
+footer{
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+}
